@@ -7,12 +7,12 @@ import Canvas from "./components/Canvas/Canvas";
  * @returns{JSX.Element} App 컴포넌트
  */
 const App = (): JSX.Element => {
-    return (
-        <>
-            <div className="text-3xl font-bold underline">hi</div>
-            <Canvas />
-        </>
-    );
+  return (
+    <div className="m-4">
+      <h1 className="text-3xl font-bold">그림판</h1>
+      <Canvas />
+    </div>
+  );
 };
 
 export default App;
